@@ -117,13 +117,13 @@ a:hover {
     background: white;
     position: absolute;
     z-index: 0;
-    right: -80%;
+    transform: translateX(100%);
     transition: 0.7s cubic-bezier(.8, .04, .68, 1.01);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   }
 
   .nav-open {
-    right: 0 !important;
+    transform: translateX(0%) !important;
     transition: 0.7s cubic-bezier(.8, .04, .68, 1.01);
   }
 
