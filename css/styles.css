@@ -1,12 +1,12 @@
 @import url("https://use.typekit.net/rsi3heu.css");
 @font-face {
   font-family: "poppins";
-  src: url(/fonts/poppins.ttf);
+  src: url(../fonts/poppins.ttf);
 }
 
 @font-face {
   font-family: "brush";
-  src: url(/fonts/brush.ttf);
+  src: url(../fonts/brush.ttf);
 }
 
 ::-moz-selection {
@@ -368,6 +368,9 @@ a:hover {
   .hide-on-desktop {
     display: none;
   }
+  .nav-m-container {
+    display: none;
+  }
   .nav {
     position: absolute;
     width: 100%;
@@ -536,6 +539,8 @@ a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;

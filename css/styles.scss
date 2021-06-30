@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: "poppins";
-  src: url(/fonts/poppins.ttf);
+  src: url(../fonts/poppins.ttf);
 }
 
 @font-face {
   font-family: "brush";
-  src: url(/fonts/brush.ttf);
+  src: url(../fonts/brush.ttf);
 }
 
 $red: #F52B50;
@@ -358,6 +358,9 @@ a:hover {
   .hide-on-desktop {
     display: none;
   }
+  .nav-m-container {
+    display: none;
+  }
 
   .nav {
     position: absolute;
@@ -515,6 +518,7 @@ a:hover {
     position: relative;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
